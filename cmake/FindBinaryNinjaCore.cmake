@@ -17,6 +17,7 @@ if(NOT BN_INTERNAL_BUILD)
     if(WIN32)
         # System-wide install
         list(APPEND PATH_HINTS "C:\\Program Files\\Vector35\\BinaryNinja")
+        list(APPEND PATH_HINTS "D:\\Program Files\\Vector35\\BinaryNinja")
         # User install
         list(APPEND PATH_HINTS "$ENV{LocalAppData}\\Vector35\\BinaryNinja")
         list(APPEND PATH_HINTS "$ENV{LocalAppData}\\Programs\\Vector35\\BinaryNinja")
